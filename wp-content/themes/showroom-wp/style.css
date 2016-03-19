@@ -7,6 +7,29 @@ Description: For portfolio porpouse
 License: GNU General Public License v2 or later
 */
 
-#header-top {
+body {
+	background-color: #EEE;
+}
+header {
+	margin-top: 10px;
 	background-color: #FF0000;
+	padding: 20px 5px;
+}
+
+/* NAV MENU */
+#myNavbar {
+	float: right;
+}
+#primary-navigation a {
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+.screen-reader-text {
+	display: none;
+}
+
+/*AJUSTES*/
+#header-advt {
+	margin-top: -25px;
 }
