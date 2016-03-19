@@ -16,13 +16,12 @@
 <div class="container">
 	<header id="masthead" class="site-header row" role="banner">
 		
-			<div class="col-sm-2">
-				<img src="<?php echo bloginfo('stylesheet_directory') ?>/imgs/logo-showroom.png" alt="ShowRoom">
-			</div>
 
-			<div class="col-sm-8">
+			
 				<nav id="primary-navigation" role="navigation">
-					
+					<div class="navbar-header text-center">
+				      <img src="<?php echo bloginfo('stylesheet_directory') ?>/imgs/logo-showroom.png" alt="ShowRoom">
+				    </div>
 					 <nav class="navbar ">
 					  <div class="container-fluid">
 					    <div class="navbar-header">
@@ -33,7 +32,7 @@
 					        A
 					      </button>
 					    </div>
-					    <div class="collapse navbar-collapse" id="myNavbar">
+					    <div class="collapse navbar-collapse  navbar-right" id="myNavbar">
 					    	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav navbar-nav', 'menu_id' => 'primary-menu', "container" => "ul" ) ); ?>
 					      <!--ul class="nav navbar-nav">
 					        <li class="active"><a href="#">Home</a></li>
@@ -45,11 +44,11 @@
 					  </div>
 					</nav>
 				</nav>
-			</div>
 
-			<div class="col-sm-2">
+
+			<!--div class="col-sm-2">
 				<?php get_search_form(); ?>
-			</div>
+			</div-->
 		
 	</header><!-- #masthead -->
 

@@ -1,5 +1,15 @@
 <?php
 
+//
+/*echo str_replace('sub-menu', 'menu menu_sub', wp_nav_menu( array(
+    'echo' => false,
+    'theme_location' => 'sidebar-menu',
+    'items_wrap' => '<span class="caret">c</span></a><ul class="dropdown-menu">%3$s</ul>' 
+  ) )
+);*/
+
+
+//
 add_action("admin_menu", "add_theme_menu_item");
 add_action( 'wp_enqueue_scripts', 'enqueue' );
 add_action("admin_init", "display_theme_panel_fields");
@@ -8,13 +18,13 @@ add_action("admin_init", "display_theme_panel_fields");
 function enqueue() {
 	//styles
 	wp_enqueue_style("bootstrap-css", get_template_directory_uri()."/css/bootstrap.min.css");
-	wp_enqueue_style("bootstrap-css", get_template_directory_uri()."/css/normalize.css");
+	wp_enqueue_style("normalize-css", get_template_directory_uri()."/css/normalize.css");
 	wp_enqueue_style("style-css", get_template_directory_uri()."/style.css");
 
 	//scripts
 	wp_enqueue_script("jquery");
-	wp_enqueue_script("showroom-js", get_template_directory_uri()."/js/bootstrap.min.js");
-	wp_enqueue_script("showroom-js", get_template_directory_uri()."/js/jshowroom.js");
+	wp_enqueue_script("bootstrap-js", get_template_directory_uri()."/js/bootstrap.min.js");
+	wp_enqueue_script("showroom-js", get_template_directory_uri()."/js/showroom.js");
 }
 
 //settings page

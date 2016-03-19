@@ -7,29 +7,58 @@ Description: For portfolio porpouse
 License: GNU General Public License v2 or later
 */
 
+/*
+PRETO:#2A2A28;
+VERMELHO:#E5032F;
+VERMELHO+ESCURO:#CD172B;
+*/
+
 body {
 	background-color: #EEE;
 }
 header {
 	margin-top: 10px;
-	background-color: #FF0000;
+	background-color: #E5032F;
 	padding: 20px 5px;
 }
 
 /* NAV MENU */
-#myNavbar {
-	float: right;
-}
 #primary-navigation a {
 	text-transform: uppercase;
 	font-weight: 600;
 	color: #FFF;
 }
+#primary-navigation a:hover {
+	background-color: #2A2A28;
+}
+.current_page_item {
+	background-color: #CD172B;
+	border-bottom: 2px solid #FFF;
+}
+/*busca*/
 .screen-reader-text {
 	display: none;
 }
 
 /*AJUSTES*/
+
+/*bootstrap subscribe default*/
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: transparent !important;
+}
+/*.dadropdownta-toggle:focus {
+	background-color: transparent !important;
+}*/
+.dropdown-menu {
+	background-color: #CD172B;
+	border:0;
+	padding: 0;
+
+}
+.dropdown-menu a {
+	height: 50px;
+	line-height: 50px !important;
+}
 #header-advt {
 	margin-top: -25px;
 }
