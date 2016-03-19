@@ -21,28 +21,25 @@
 				<nav id="primary-navigation" role="navigation">
 					<div class="navbar-header text-center">
 				      <img src="<?php echo bloginfo('stylesheet_directory') ?>/imgs/logo-showroom.png" alt="ShowRoom">
-				    </div>
-					 <nav class="navbar ">
-					  <div class="container-fluid">
-					    <div class="navbar-header">
+				      <div class="navbar-rightss" style="float:right;">
 					      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
 					        A
 					      </button>
 					    </div>
+				    </div>
+					 
+					  <div class="container-fluid">
+					    
+
 					    <div class="collapse navbar-collapse  navbar-right" id="myNavbar">
 					    	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav navbar-nav', 'menu_id' => 'primary-menu', "container" => "ul" ) ); ?>
-					      <!--ul class="nav navbar-nav">
-					        <li class="active"><a href="#">Home</a></li>
-					        <li><a href="#1">Page 1</a></li>
-					        <li><a href="#2">Page 2</a></li>
-					        <li><a href="#">Page 3</a></li>
-					      </ul-->
+					      	<div class="navbar-right">
+					    		<?php get_search_form(); ?>
+							</div>
 					    </div>
+					    
 					  </div>
-					</nav>
+					
 				</nav>
 
 
