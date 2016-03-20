@@ -90,10 +90,12 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 	font-family: 'dosisbold';
 }
 	.header-realce {
-		display: inline-block;
-		width: 142px;
+		/*display: inline-block;
+		
+		
+		height: 30px;*/
+		min-width: 142px;
 		float: left;
-		height: 30px;
 		line-height: 30px;
 		color: #FFF;
 		text-transform: uppercase;
@@ -114,25 +116,27 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 		line-height: 20px;*/
 		text-transform: uppercase;
 		margin-bottom: 0 !important;
+		color: #ED1C24;
 	}
 	.wpp-list a {
 		color: #FFF;
-		
-		
 	}
 	.wpp-list li {
 		display: inline-block;
-		/*padding: 0 15px !important;*/
 		height: 25px;
 		line-height: 25px !important;
 	}
-	.wpp-views {
+	/*.wpp-views {
 		display: none;
 	}
+	.wpp-list li:hover {
+		padding: 0 !important;
+	}
+	
 	.wpp-list li:hover .wpp-views {
 		display: initial;
-		color: #ED1C24;
-	}
+		
+	}*/
 /*AJUSTES*/
 
 /*bootstrap subscribe default*/

@@ -20,7 +20,6 @@ function enqueue() {
 	wp_enqueue_style("bootstrap-css", get_template_directory_uri()."/css/bootstrap.min.css");
 	wp_enqueue_style("normalize-css", get_template_directory_uri()."/css/normalize.css");
 	wp_enqueue_style("style-css", get_template_directory_uri()."/style.css");
-	wp_enqueue_style("include-css", get_template_directory_uri()."/font-include.css");
 
 	//scripts
 	wp_enqueue_script("jquery");
