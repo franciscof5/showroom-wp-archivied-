@@ -104,10 +104,13 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 	}
 
 	.wpp-list {
-		float: left;
 		
+		max-height: 30px;
+		overflow: hidden;
 		font-size: 14px;
-		/*height: 20px;
+		/*
+		float: left;
+		height: 20px;
 		line-height: 20px;*/
 		text-transform: uppercase;
 		margin-bottom: 0 !important;
@@ -119,7 +122,7 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 	}
 	.wpp-list li {
 		display: inline-block;
-		padding: 0 15px !important;
+		/*padding: 0 15px !important;*/
 		height: 25px;
 		line-height: 25px !important;
 	}
