@@ -1,10 +1,15 @@
 /*
 Theme Name: ShowRoom WP
 Theme URI: https://franciscomat.com/showroom-wp
+Version: 0.1
 Author: Francisco Mat
 Author URI: https://franciscomat.com
-Description: For portfolio porpouse
+Description: ShowRoom multi-porpouse wordpress theme
 License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootstrap, responsive, fluid, horinzontal menu, post count ready
+Text Domain: showroom
+
 */
 
 @font-face {
@@ -42,9 +47,9 @@ header {
 	font-family: 'dosisbold';
 }
 /*
-PRETO:#2A2A28;
-VERMELHO:#ED1C24;
-VERMELHO+ESCURO:#C50A21 CD172B;
+DARK:#2A2A28;
+COLOR:#ED1C24;
+COLOR DARK+ESCURO:#C50A21 CD172B;
 */
 
 /* HEADER */
@@ -70,7 +75,7 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 	.icon-bar {
 		background: #FFF;
 	}
-	/*busca*/
+	/*searchform*/
 	#s {
 		border-radius: 0;
 		border: 0;
@@ -82,7 +87,7 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 		padding: 0 30px 0 10px;
 	}
 
-/* HEADER EXTRA */
+/* HEADER EXTRA LINE */
 #header-extra {
 	background-color: #2A2A28;
 	color: #FFF;
@@ -90,10 +95,6 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 	font-family: 'dosisbold';
 }
 	.header-realce {
-		/*display: inline-block;
-		
-		
-		height: 30px;*/
 		min-width: 142px;
 		float: left;
 		line-height: 30px;
@@ -105,15 +106,10 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 		padding-left: 20px;
 	}
 
-	.wpp-list {
-		
+	.wpp-list {	
 		max-height: 30px;
 		overflow: hidden;
 		font-size: 14px;
-		/*
-		float: left;
-		height: 20px;
-		line-height: 20px;*/
 		text-transform: uppercase;
 		margin-bottom: 0 !important;
 		color: #ED1C24;
@@ -126,18 +122,11 @@ VERMELHO+ESCURO:#C50A21 CD172B;
 		height: 25px;
 		line-height: 25px !important;
 	}
-	/*.wpp-views {
-		display: none;
-	}
-	.wpp-list li:hover {
-		padding: 0 !important;
-	}
-	
-	.wpp-list li:hover .wpp-views {
-		display: initial;
-		
-	}*/
-/*AJUSTES*/
+
+ /* */
+.wp-caption, .wp-caption-text, .sticky {}
+
+/* ADJUSTMENTS */
 
 /*bootstrap subscribe default*/
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {

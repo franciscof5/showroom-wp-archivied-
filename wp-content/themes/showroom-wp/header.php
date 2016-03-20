@@ -2,7 +2,7 @@
 <html>
 <head <?php language_attributes(); ?> >
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<title>ShowRoom WP</title>
+	<title><?php wp_title() ?></title>
 	<?php wp_head(); ?>
 	
 </head>
