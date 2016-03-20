@@ -36,16 +36,12 @@ Text Domain: showroom
     font-style: normal;
 
 }
+
 body {
 	background-color: #EEE;
 	font-family: 'dosisregular';
 }
-header {
-	margin-top: 10px;
-	background-color: #ED1C24;
-	padding: 20px 5px;
-	font-family: 'dosisbold';
-}
+
 /*
 DARK:#2A2A28;
 COLOR:#ED1C24;
@@ -53,9 +49,16 @@ COLOR DARK+ESCURO:#C50A21 CD172B;
 */
 
 /* HEADER */
+#masthead {
+	margin-top: 10px;
+	background-color: #ED1C24;
+	padding: 20px 5px;
+	font-family: 'dosisbold';
+}
 #header-logo {
 	margin: 0 20px;
 }
+
 /* NAV MENU */
 #primary-navigation a {
 	text-transform: uppercase;

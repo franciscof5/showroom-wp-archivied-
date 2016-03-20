@@ -47,7 +47,7 @@ function showroom_settings_page()
 
 function add_theme_menu_item()
 {
-	add_menu_page("ShowRoom", "ShowRoom", "manage_options", "showroom-panel", "showroom_settings_page", null, 99);
+	add_theme_page("ShowRoom", "ShowRoom", "manage_options", "showroom-panel", "showroom_settings_page", null, 99);
 }
 
 function display_color1_element()

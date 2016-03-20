@@ -2,7 +2,7 @@
 <html>
 <head <?php language_attributes(); ?> >
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<title><?php wp_title() ?></title>
+	<title><?php wp_title(); ?></title>
 	<?php wp_head(); ?>
 	
 </head>
@@ -46,7 +46,7 @@
 
 	<div id="header-extra" class="row cointainer-fluid">
 		<div class="header-realce col-sm-2">+ ACESSADOS</div>
-		<?php if(function_exists(wpp_get_mostpopular)) {
+		<?php if(function_exists(wpp_get_mostpopular())) {
 			wpp_get_mostpopular("post_type=post");
 		} ?>
 	</div>
