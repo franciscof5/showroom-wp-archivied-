@@ -47,7 +47,7 @@
 	<div id="header-extra" class="row cointainer-fluid">
 		<div class="header-realce col-sm-2">+ ACESSADOS</div>
 		<?php if(function_exists("wpp_get_mostpopular")) {
-			wpp_get_mostpopular("post_type=post");
+			wpp_get_mostpopular("post_type=post range=monthly");
 		} ?>
 	</div>
 	
