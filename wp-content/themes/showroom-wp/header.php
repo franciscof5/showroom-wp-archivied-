@@ -14,8 +14,8 @@
 </div>
 
 <div class="container-fluid">
-	<header id="masthead" class="site-header row" role="banner">
-			
+	
+	<div id="masthead" class="site-header row container-fluid row">	
 		<nav id="primary-navigation" role="navigation">
 			<div class="navbar-header text-center ">
 		      <a href="<?php echo bloginfo('url'); ?>"><img src="<?php echo bloginfo('stylesheet_directory') ?>/imgs/logo-showroom.png" alt="ShowRoom" id="header-logo"></a>
@@ -42,8 +42,8 @@
 			
 		</nav>
 		
-	</header><!-- #masthead -->
-
+	
+	</div><!-- #masthead -->
 	<div id="header-extra" class="row cointainer-fluid">
 		<div class="header-realce col-sm-2">+ ACESSADOS</div>
 		<?php if(function_exists("wpp_get_mostpopular")) {

@@ -20,5 +20,4 @@ jQuery(document).ready(function($) {
 	});
 	//data-toggle="tooltip" data-placement="top" title="Hooray!"
 	$('[data-toggle="tooltip"]').tooltip(); 
-	$("[rel='tooltip']").tooltip();
 });
