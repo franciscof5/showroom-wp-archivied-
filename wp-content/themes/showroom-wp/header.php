@@ -18,7 +18,7 @@
 			
 		<nav id="primary-navigation" role="navigation">
 			<div class="navbar-header text-center ">
-		      <img src="<?php echo bloginfo('stylesheet_directory') ?>/imgs/logo-showroom.png" alt="ShowRoom" id="header-logo">
+		      <a href="<?php echo bloginfo('url'); ?>"><img src="<?php echo bloginfo('stylesheet_directory') ?>/imgs/logo-showroom.png" alt="ShowRoom" id="header-logo"></a>
 		      <div class="navbar-rightss" style="float:right;">
 			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 			        <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
 				<div class="collapse navbar-collapse  navbar-right" id="myNavbar">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav navbar-nav', 'menu_id' => 'primary-menu', "container" => "ul" ) ); ?>
 				  	<div class="navbar-right">
-						<form role="search" method="get" id="searchform" action="search.php" >
+						<form role="search" method="get" id="searchform" action="<?php echo bloginfo('url'); ?>" >
 							<input type="text" placeholder="PESQUISAR" value="" name="s" id="s" />
 							<!--img src="<?php echo bloginfo('stylesheet_directory') ?>/imgs/logo-showroom.png" alt="ShowRoom"-->
 						</form>
@@ -46,7 +46,7 @@
 
 	<div id="header-extra" class="row cointainer-fluid">
 		<div class="header-realce col-sm-2">+ ACESSADOS</div>
-		<?php if(function_exists(wpp_get_mostpopular())) {
+		<?php if(function_exists("wpp_get_mostpopular")) {
 			wpp_get_mostpopular("post_type=post");
 		} ?>
 	</div>

@@ -14,6 +14,14 @@ Site: www.franciscomat.com | www.franciscomat.com.br
 ====
 
 
-Thanks to:
+Multi porpouse wordpress theme. Features
 
-http://www.sitepoint.com/create-a-wordpress-theme-settings-page-with-the-settings-api/
+* Bootstrap template
+* Bootstrap menu
+* Mobile ready
+* Most popular posts functions, with plugin
+
+====
+
+Altran / Abril / Guia 4 Rodas
+

@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.4.2" created="2016-03-20 02:27" -->
+<!-- generator="WordPress/4.4.2" created="2016-03-21 02:14" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>ShowRoom WP</title>
 	<link>http://localhost/showroom-wp</link>
 	<description>Só mais um site WordPress</description>
-	<pubDate>Sun, 20 Mar 2016 02:27:09 +0000</pubDate>
+	<pubDate>Mon, 21 Mar 2016 02:14:13 +0000</pubDate>
 	<language>pt-BR</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/showroom-wp</wp:base_site_url>
@@ -64,7 +64,7 @@ Como um novo usuário do WordPress, você deve ir até o <a href="http://localho
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[pagina-exemplo]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
@@ -73,6 +73,14 @@ Como um novo usuário do WordPress, você deve ir até o <a href="http://localho
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1458524712]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -526,33 +534,6 @@ Como um novo usuário do WordPress, você deve ir até o <a href="http://localho
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Novo KA</title>
-		<link>http://localhost/showroom-wp/2016/03/20/novo-ka/</link>
-		<pubDate>Sun, 20 Mar 2016 01:32:49 +0000</pubDate>
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/showroom-wp/?p=28</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>28</wp:post_id>
-		<wp:post_date><![CDATA[2016-03-20 01:32:49]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-03-20 01:32:49]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[novo-ka]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Corolla</title>
 		<link>http://localhost/showroom-wp/corolla/</link>
 		<pubDate>Sun, 20 Mar 2016 01:33:42 +0000</pubDate>
@@ -605,34 +586,60 @@ Como um novo usuário do WordPress, você deve ir até o <a href="http://localho
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>wordpress-popular-posts.3.3.3.zip</title>
-		<link>http://localhost/showroom-wp/wordpress-popular-posts-3-3-3-zip/</link>
-		<pubDate>Sun, 20 Mar 2016 01:43:45 +0000</pubDate>
+		<title>Front Page</title>
+		<link>http://localhost/showroom-wp/front-page/</link>
+		<pubDate>Mon, 21 Mar 2016 01:44:37 +0000</pubDate>
 		<dc:creator><![CDATA[root]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/showroom-wp/wp-content/uploads/2016/03/wordpress-popular-posts.3.3.3.zip</guid>
+		<guid isPermaLink="false">http://localhost/showroom-wp/?page_id=56</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://localhost/showroom-wp/wp-content/uploads/2016/03/wordpress-popular-posts.3.3.3.zip]]></content:encoded>
+		<content:encoded><![CDATA[<ul class="destaques_principais"><li><a href="/materia/vw-golf-16-comfortline-x-focus-16-se-plus-classico-mundial"><h3 class="tag_top"> Comparativo</h3><figure class="figure-gradient"><img src="http://msalx.quatrorodas.abril.com.br/2016/03/18/1611/ye9qD/qr-679-golf-x-focus-01-tif.jpeg?1458332139" alt="VW Golf 1.6 Comfortline x Ford Focus 1.6 SE Plus: clássico mundial"></figure><h4>VW Golf 1.6 Comfortline x Ford Focus 1.6 SE Plus: clássico mundial</h4></a></li><li><a href="/materia/o-que-um-carro-fez-nos-veroes-passados"><h3 class="tag_top"> Mercado</h3><figure class="figure-gradient"><img src="http://msalx.quatrorodas.abril.com.br/2016/03/18/1515/yiLzF/ilustra-final.jpeg?1458325097" alt="Como investigar o passado de um carro usado"></figure><h4>Como investigar o passado de um carro usado</h4></a></li><li class="publicidade-home"><div id="abrAD_rectangle1"></div><p>PUBLICIDADE</p></li><li><a href="/materia/dias-de-trovao-diversao-e-adrenalina-nos-track-days"><h3 class="tag_top"> Track Day</h3><figure class="figure-gradient"><img src="http://msalx.quatrorodas.abril.com.br/2016/03/18/1135/yiLzF/qr-679-track-days-01-tif.jpeg?1458312224" alt="Dias de trovão: velocidade, diversão e adrenalina nos track days"></figure><h4>Dias de trovão: velocidade, diversão e adrenalina nos track days</h4></a></li><li><a href="/materia/fiat-toro-freedom-diesel-4x2-trabalhadora-urbana"><h3 class="tag_top"> Teste</h3><figure class="figure-gradient"><img src="http://msalx.quatrorodas.abril.com.br/2016/03/17/1341/yiLzF/fiat_toro_freedom_diesel_003.jpeg?1458236662" alt="Toro diesel 4x2: a configuração ideal para que vive na cidade"></figure><h4>Toro diesel 4x2: a configuração ideal para que vive na cidade</h4></a></li></ul>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>44</wp:post_id>
-		<wp:post_date><![CDATA[2016-03-20 01:43:45]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-03-20 01:43:45]]></wp:post_date_gmt>
+		<wp:post_id>56</wp:post_id>
+		<wp:post_date><![CDATA[2016-03-21 01:44:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-03-21 01:44:37]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[front-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>carro3</title>
+		<link>http://localhost/showroom-wp/2016/03/20/jeep/carro3/</link>
+		<pubDate>Mon, 21 Mar 2016 01:49:52 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/showroom-wp/wp-content/uploads/2016/03/carro3.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>59</wp:post_id>
+		<wp:post_date><![CDATA[2016-03-21 01:49:52]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-03-21 01:49:52]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[wordpress-popular-posts-3-3-3-zip]]></wp:post_name>
-		<wp:status><![CDATA[private]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
+		<wp:post_name><![CDATA[carro3]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>53</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/showroom-wp/wp-content/uploads/2016/03/wordpress-popular-posts.3.3.3.zip]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://localhost/showroom-wp/wp-content/uploads/2016/03/carro3.png]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2016/03/wordpress-popular-posts.3.3.3.zip]]></wp:meta_value>
+			<wp:meta_value><![CDATA[2016/03/carro3.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-			<wp:meta_value><![CDATA[upgrader]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:610;s:6:"height";i:500;s:4:"file";s:18:"2016/03/carro3.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:18:"carro3-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:18:"carro3-300x246.png";s:5:"width";i:300;s:6:"height";i:246;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -684,6 +691,33 @@ Para excluir um comentário, faça o login e veja os comentários de posts. Lá 
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>0</wp:comment_user_id>
 		</wp:comment>
+	</item>
+	<item>
+		<title>Novo KA</title>
+		<link>http://localhost/showroom-wp/2016/03/20/novo-ka/</link>
+		<pubDate>Sun, 20 Mar 2016 01:32:49 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/showroom-wp/?p=28</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date><![CDATA[2016-03-20 01:32:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-03-20 01:32:49]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[novo-ka]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>HB 20</title>
@@ -764,6 +798,145 @@ Para excluir um comentário, faça o login e veja os comentários de posts. Lá 
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Fiesta</title>
+		<link>http://localhost/showroom-wp/2016/03/20/fiesta/</link>
+		<pubDate>Sun, 20 Mar 2016 18:53:55 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/showroom-wp/?p=46</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2016-03-20 18:53:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-03-20 18:53:55]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[fiesta]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Classic</title>
+		<link>http://localhost/showroom-wp/2016/03/20/classic/</link>
+		<pubDate>Sun, 20 Mar 2016 18:54:04 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/showroom-wp/?p=47</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date><![CDATA[2016-03-20 18:54:04]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-03-20 18:54:04]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[classic]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Sandero</title>
+		<link>http://localhost/showroom-wp/2016/03/20/sandero/</link>
+		<pubDate>Sun, 20 Mar 2016 18:54:12 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/showroom-wp/?p=48</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>48</wp:post_id>
+		<wp:post_date><![CDATA[2016-03-20 18:54:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-03-20 18:54:12]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[sandero]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Honda</title>
+		<link>http://localhost/showroom-wp/2016/03/20/honda/</link>
+		<pubDate>Sun, 20 Mar 2016 18:57:58 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/showroom-wp/?p=52</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>52</wp:post_id>
+		<wp:post_date><![CDATA[2016-03-20 18:57:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-03-20 18:57:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[honda]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Jeep</title>
+		<link>http://localhost/showroom-wp/2016/03/20/jeep/</link>
+		<pubDate>Sun, 20 Mar 2016 18:58:05 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/showroom-wp/?p=53</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>53</wp:post_id>
+		<wp:post_date><![CDATA[2016-03-20 18:58:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-03-20 18:58:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[jeep]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="sem-categoria"><![CDATA[Sem categoria]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[59]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>

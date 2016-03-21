@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
+<div id="primary" class="content-area row row-centered">
+	<main id="main" class="site-main col-md-10 col-md-offset-1" role="main">
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
