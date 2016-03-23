@@ -251,6 +251,15 @@ a img.aligncenter {
 }
 
 
+/* REUSABLE */
+.size-100porcento {
+	width: 100% !important;
+	height: 100% !important;
+	max-height: 400px;
+}
+.size-100porcento:hover {
+	
+}
 
 /* ADJUSTMENTS */
 
