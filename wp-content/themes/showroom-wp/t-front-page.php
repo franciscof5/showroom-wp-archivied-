@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 
     <div id="primary" class="content-area row row-centered">
-        <main id="main" class="site-main col-md-10 col-md-offset-1" role="main">
+        <main id="main" class="site-main " role="main" style="padding:0;margin-top:10px;">
 		<div class="container-fluid row" style="height:400px;">
         <?php 
         query_posts( 'posts_per_page=5' );
@@ -23,22 +23,32 @@
                 ?>
                 <?php if($i==0) { ?>
                 
-                    <div class="col-md-6" style="background:#eee;padding:0;height:400px;">
+                    <div class="col-sm-6" style="background:#000;padding:0;">
                         <?php the_post_thumbnail("100porcento"); ?>
                     </div>
-                <?php } else { ?>
-                    <div class="col-md-3" style="background:#323;padding:0;height:200px;">
+                    <div class="col-sm-6 container-fluid copy-height" style="background:#000;padding:0;overflow:hidden;">
+                <?php } else { 
+                    if($i==1 OR $i==3)
+                    echo '<div>'
+                    ?>
+                    <div class="col-xs-6" style="background:#323;padding:0;">
                         <?php the_post_thumbnail("100porcento"); ?>
+
                     </div>
-                <?php } ?>
-                
+                <?php 
+                    if($i==2 OR $i==4)
+                    echo '</div>';
                     
+                } ?>
                 
             <?php
             $i++;
             // End the loop.
             endwhile;
-
+            ?>
+            </div>
+             </div>
+            <?php
             // Previous/next page navigation.
             the_posts_pagination( array(
                 'prev_text'          => __( 'Previous page', 'twentysixteen' ),
@@ -47,7 +57,8 @@
             ) );
         endif;
         ?>
-        </div>
+        
+       
     </main><!-- .site-main -->
 
     <?php //get_sidebar( 'content-bottom' ); ?>

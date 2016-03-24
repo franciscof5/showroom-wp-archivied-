@@ -20,4 +20,20 @@ jQuery(document).ready(function($) {
 	});
 	//data-toggle="tooltip" data-placement="top" title="Hooray!"
 	$('[data-toggle="tooltip"]').tooltip(); 
+
+	//responsive tricks
+	$(window).resize(function() {
+		adjust();
+	});
+	adjust();
+	
+	function adjust() {
+		$(".copy-height").each(function() {
+			$(this).css("height", $(this).prev().height());
+			$(this).children().css("height", $(this).prev().height()/2);
+			//$(this).children().children().css("width", $(this).prev().width()/2);
+			//$(this).children().children().css("height", $(this).prev().height()/4);
+			//$(this).children(":second").css("height", $(this).prev().height()/2);
+		});
+	}
 });

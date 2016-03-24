@@ -255,10 +255,11 @@ a img.aligncenter {
 .size-100porcento {
 	width: 100% !important;
 	height: 100% !important;
-	max-height: 400px;
+	/*min-height: 150px;
+	max-height: 400px;*/
 }
 .size-100porcento:hover {
-	
+
 }
 
 /* ADJUSTMENTS */
